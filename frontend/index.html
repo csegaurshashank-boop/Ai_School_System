@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI School - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container login-container">
+        <div class="login-card">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>AI Smart School</h1>
+                <p class="subtitle">Management & Learning Analytics Platform</p>
+            </div>
+            
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <label for="email">
+                        <i class="fas fa-envelope"></i> Email
+                    </label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">
+                        <i class="fas fa-lock"></i> Password
+                    </label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </button>
+                
+                <div class="login-info">
+                    <p><i class="fas fa-info-circle"></i> Default Teacher Credentials:</p>
+                    <p>Email: <strong>admin@school.com</strong></p>
+                    <p>Password: <strong>admin123</strong></p>
+                </div>
+            </form>
+            
+            <div id="message" class="message"></div>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h3>Learning Analytics</h3>
+                <p>AI-powered insights into student performance</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-user-tie"></i>
+                <h3>Teacher Dashboard</h3>
+                <p>Comprehensive management tools for educators</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-robot"></i>
+                <h3>AI Reports</h3>
+                <p>Personalized study plans and recommendations</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/login.js"></script>
+</body>
+</html>
