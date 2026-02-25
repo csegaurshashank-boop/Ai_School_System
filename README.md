@@ -19,4 +19,4 @@ A complete, production-quality school management system with AI-powered learning
 - **AI**: Google Gemini API
 - **Authentication**: UUID token system
 
-## Project Structure
+
